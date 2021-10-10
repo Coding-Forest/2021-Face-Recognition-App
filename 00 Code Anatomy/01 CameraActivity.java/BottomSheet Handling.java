@@ -1,4 +1,17 @@
 // https://stackoverflow.com/questions/61424482/java-spring-what-is-from-used-with-example
+// https://stackoverflow.com/questions/62082132/detail-explanation-of-all-states-in-bottomsheetbehavior-android
+
+/* BottomSheetBehavior
+
+com.google.android.material.bottomsheet.BottomSheetBehavior<V extends View> 
+public BottomSheetBehavior(@NonNull android.content.Context context,
+                           android.util.AttributeSet attrs)
+                                                      
+An interaction behavior plugin for a child view of CoordinatorLayout to make it work as a bottom sheet.
+To send useful accessibility events, set a title on bottom sheets that are windows or are window-like. 
+For BottomSheetDialog use AppCompatDialog.setTitle(int), 
+and for BottomSheetDialogFragment use ViewCompat.setAccessibilityPaneTitle(View, CharSequence).
+*/
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
